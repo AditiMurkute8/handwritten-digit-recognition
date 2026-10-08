@@ -1,0 +1,37 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.env
+!.env.example
+
+# Machine Learning Artifacts & Debug Outputs
+# (Note: handwritten_digit_model.keras is tracked for production backend Docker build)
+backend/debug/
+debug/
+
+# Frontend (Node / React / Vite)
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System & IDE Temporary Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
